@@ -1,0 +1,91 @@
+:root {
+    --primary: #ccdad1;
+    --secondary: #9caea9;
+    --tertiary: #788585;
+    --light-dark: #6f6866;
+    --dark: #38302e;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    color: var(--dark);
+    line-height: 1.5;
+    font-size: 16px;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 700;
+    margin: 0;
+    color: var(--dark);
+    line-height: 1.25;
+  }
+  
+  main {
+    margin: 20px auto;
+    width: 94%;
+  }
+  
+  p {
+    font-size: 1.2rem;
+  }
+  
+   .btn {
+    font-size: 1.3rem;
+    text-decoration:none;
+    padding: 6px 5px;
+    width: 100%;
+    display: block;
+    margin: 5px 0;
+    border-radius: .3rem;
+    color: var(--primary);
+    border: none;
+    outline: none;
+    box-shadow: 3px 3px var(--dark);
+    transform: translate(-1px, -1px);
+  }
+  
+   .btn:hover {
+    transform: translate(0, 0);
+    box-shadow: 2px 2px var(--dark);
+  }
+  
+  .search-btn{
+    background-color: #1e1368;
+    color: white;
+  }
+  
+  .history-btn{
+    background-color: #cec6f8;
+    color: black;
+  }
+  
+  .btn-inline {
+    display: inline;
+  }
+  
+  .hero {
+    padding: 3% 4%;
+    background-image: linear-gradient(to right, #1c1360, #705ce1);
+    color: var(--primary);
+  }
+  
+  .app-title {
+    font-size: 4rem;
+    color: white;
+  }
+
+  #forecast-container h3{
+    margin: 40px 0 20px 0;
+  }
+
