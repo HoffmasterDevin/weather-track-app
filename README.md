@@ -13,7 +13,8 @@
   ## Usage
   Input the name of a city in the search bar, then click search. You should get your desired weather forecasts if it is an existing city within the Openweather API. You can then click on the name of a city in the 'Search History' section to see them again.
   ## Screenshot
-  screenshot
+  ![weather](https://user-images.githubusercontent.com/118146567/235517055-ad894309-71a7-40bc-9740-3853d2e7a679.png)
+
 
   ## License
   This application is licenced by [MIT License](https://mit-license.org/)
